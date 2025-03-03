@@ -1,0 +1,35 @@
+.task-card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+  }
+  
+  .task-card.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .task-actions button {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task-actions button:first-child {
+    background: #28a745;
+    color: white;
+  }
+  
+  .task-actions button:last-child {
+    background: #dc3545;
+    color: white;
+  }
+  
